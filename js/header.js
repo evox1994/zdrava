@@ -70,4 +70,11 @@ $(document).ready(function(){
 		$(this).parent('.drop-nav-wrap').parent('.drop-nav').removeClass('active');
 	});
 
+	$(document).on('click',function(e){
+		var container = $('.header-select');
+		if (container.has(e.target).length === 0){
+			container.removeClass('active');
+		}
+	});
+
 });

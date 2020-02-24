@@ -10,6 +10,7 @@ body {
 	overflow-x: hidden;
 	-webkit-text-size-adjust: none;
 	color: #000000;
+    padding-top: 110px;
 }
 body.no-scroll {
 	height: 100vh !important;
@@ -289,8 +290,21 @@ input::-webkit-input-placeholder, input:-moz-placeholder {
 @media screen and (max-width: 1280px){
 	
 }
+@media screen and (max-width: 1024px){
+    body {
+        padding-top: 161px;
+    }
+}
 @media screen and (max-width: 768px){
+    body {
+        padding-top: 153px;
+    }
     .container {
         padding: 0 10px;
+    }
+}
+@media screen and (max-width: 560px){
+    body {
+        padding-top: 142px;
     }
 }
